@@ -1,0 +1,25 @@
+div{width: 100px; height: 100px; background: dodgerblue;
+border: 1px solid black;
+transition: 1s;}
+
+/* 박스2 마우스를 올리면 크기가 2배 */
+#box2:hover{
+    /* width: 200px; height: 200px; */
+    /* scale(배수)는 커지는 기준점이 가운데 */
+transform: scale(2);}
+
+/* 박스3 마우스를 올리면 기울기 */
+/* skew(각도=단위=deg) */
+#box3:hover{transform: skew(45deg);}
+
+/* transition은 스르륵 하는 애니메이션 효과 */
+#box4{transition: 1s;}
+
+/* 박스4 마우스를 올리면 회전 */
+#box4:hover{transform: rotate(180deg);}
+
+/* 박스5는 크기, 회전 */
+#box5:hover{transform: scale(2) rotate(360deg);}
+
+/* a href="#box1" target */
+#box1:target{transform: translate(500px,200px);}

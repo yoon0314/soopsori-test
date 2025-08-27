@@ -1,0 +1,32 @@
+/* 기본 글자 크기를 17px */
+/* 기본글자 색상 #1d1d1d 줄간격 1.5 글씨체 notosans kr */
+
+body{font-family: "Noto Sans Kr", sans-serif;
+font-size: 17px;
+color: #1d1d1d;
+line-height: 1.5;}
+
+/* h2 글자크기 40px */
+/* h3 글자크기 25px, 글자색 #2a4fae */
+/* .slogon 글자크기 25px, strong 글자색 #3463d9 span 글자두께 700 */
+/* .text>a 밑줄제거, 글자색 #1d1d1d */
+
+h2{font-size: 40px;}
+h3{font-size: 25px;
+   color:#2a4fae ;}
+.slogon{font-size: 1.47em;}
+/* em : 부모글자 기준으로 비율로 변경 */
+.slogon>strong{color: #3463d9;}
+.slogon>span{font-weight: 700;}
+.text>a{text-decoration: none;
+color: #1d1d1d;}
+
+
+.text1{line-height:2.5;
+text-transform:uppercase;}
+
+.text2{text-indent:50px;
+letter-spacing:5px;}
+
+.text3{font-style:italic;
+    text-decoration-line:underline;}

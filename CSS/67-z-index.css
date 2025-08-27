@@ -1,0 +1,16 @@
+
+
+
+
+.wrap>div{}
+
+.wrap>.box1{background: pink;
+position: absolute;
+top: 30px;
+left:30px;
+z-index: 10;}
+
+.wrap>.box2{background: green;
+position: relative;}
+
+.wrap>.box3{background: ;}

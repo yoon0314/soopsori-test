@@ -1,0 +1,47 @@
+/* .qick-list>.q1>a {
+    display: block;
+    width: 70px;
+    height: 70px;
+    background-color: pink;
+    background-image: url(../image/icon_quickmenu.png);
+}
+
+.qick-list>.q2>a {
+    display: block;
+    width: 70px;
+    height: 70px;
+    background-color: pink;
+    background-image: url(../image/icon_quickmenu.png);
+    background-position: -70px 0;
+}
+
+.qick-list>.q3>a {
+    display: block;
+    width: 70px;
+    height: 70px;
+    background-color: pink;
+    background-image: url(../image/icon_quickmenu.png);
+    background-position: -140px 0;
+}
+
+.qick-list>.q4>a {
+    display: block;
+    width: 70px;
+    height: 70px;
+    background-color: pink;
+    background-image: url(../image/icon_quickmenu.png);
+    background-position: -210px 0;
+} */
+
+/* ->줄일 수 있다 */
+.qick-list>li>a {
+    display: block;
+    width: 70px;
+    height: 70px;
+    background-color: pink;
+    background-image: url(../image/icon_quickmenu.png);
+}
+
+.q2>a{background-position: -70px 0;}
+.q3>a{background-position: -140px 0;}
+.q4>a{background-position: -210px 0;}

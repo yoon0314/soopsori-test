@@ -1,0 +1,8 @@
+/* .title을 선택하여 가운데 정렬 */
+.title{text-align:center;}
+
+/* 모든 p는 양쪽정렬 */
+p{text-align:justify;}
+
+/* .right를 선택하여 오른쪽 정렬 */
+.right{text-align:end;}

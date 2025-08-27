@@ -1,0 +1,21 @@
+div{width: 500px;
+height: 300px;
+background: pink url(../image/shop1_25_top_405241.jpg) no-repeat center center;
+margin: 10px;}
+
+/* 너비를 그준으로 다 보이도록, 값 1개를 입력하면 너비값이 된다*/
+.box2{background-size: 100%;}
+
+/* 화면을 채우도록/비율이 깨짐, 값1 너비 값2 높이 */
+.box3{background-size: 100% 100%;}
+
+/*너비 관계없이 높이가 다 보이도록: 가장 많이 사용된다(그림이 잘리더라도 영역에 그림이 꽉차기 때문)*/
+.bos4{background-size:cover;}
+
+/* 너비가 늘어나면 높이명령어보다 너비가 우선시 된다 */
+.box5{width: 100%;
+background-size: cover;}
+
+/* 너비를 기준으로 100% 무조건 높이를 전부 보여준다 */
+.box6{width: 100%;
+    background-size: contain;}

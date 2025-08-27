@@ -1,0 +1,76 @@
+/* 변수선언하기 */
+/* --변수명:값; */
+/* 변수명: 한글, 영문자(대소문자구분), 숫자, -, _ */
+
+body{font-family: Pretendard, "돋음",sans-serif;}
+
+:root{--default:#092729;
+--title-size:60px;
+--title-family: "Jost", sans-serif;}
+
+.inner{width: 100%;
+    max-width: 1920px;
+padding: 0 40px;
+margin: 0 auto;
+background-color: rgba(255,0,0,0.3);}
+
+/* header */
+header{}
+header .inner{display: flex;
+justify-content: space-between;}
+
+/* main */
+.main-slider .slider img{width: 100%;}
+
+section{padding: 180px 0 0;}
+
+section .title{font-family: var(--title-family);
+font-size: var(--title-size);
+margin-bottom: 30px;}
+
+.magazine-list{display: flex;
+gap: 40px;
+align-items: center;}
+
+.magazine-list>li{width: 25%;
+border-radius: 30px;
+overflow: hidden;}
+
+.magazine-list>li:first-child{height: 500px;}
+
+.magazine-list>li:nth-child(2){height: 300px;}
+
+.magazine-list>li:last-child{height: 400px;}
+
+.magazine-list>li>a>{}
+
+.magazine-list>li>a>img{width: 100%; height: 100%;
+object-fit: cover;}
+
+/* footer */
+footer{background-color:var(--default) ;
+color:white;}
+
+footer .inner{padding: 94px 40px;
+max-width: 1680px;
+display: flex;
+justify-content: space-between;}
+
+.footer-left{}
+.footer-left .util-address{}
+.footer-left .util-address .util-menu{}
+.footer-left .util-address address{}
+
+.footer-left .custom-center{}
+.footer-left .custom-center p{}
+.footer-left .custom-center p strong{}
+
+.footer-left .copy{}
+
+.footer-right .sns-list{display: flex;
+gap: 4px;
+justify-content: flex-end;
+margin-bottom: 40px;}
+
+.footer-right .footer-menu{font-size: 1.13rem;
+line-height: 2;}

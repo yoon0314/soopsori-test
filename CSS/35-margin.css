@@ -1,0 +1,35 @@
+*{margin: 0;}
+/* *--> 전체선택 */
+h1{background: skyblue; margin-bottom: 50px;}
+p{background: pink; margin-left:100px;}
+div{background: bisque;
+border:1px solid black;}
+
+/* 위이레 margin 명령어가 겹치면 큰 값만 적용된다 */
+/* 사방으로 50px */
+.box1{margin:50px;}
+
+/* 왼오 100px 위아래 20px */
+/* 값1 위아래 값2 왼오 */
+.box2{margin:20px 100px;}
+
+/* 위 100px 왼오 50px 아래 10px */
+/* 값1 위 값2 왼오 값3 아래 */
+.box3{margin: 100px 50px 10px;}
+
+/* 왼위 70 오윈 10 오아 50 왼아 100 */
+/* 값 4개는 왼위 부터 시계방향 */
+.box4{margin: 70px 10px 50px 100px;}
+
+/* 왼 100 */
+/* .box5{margin-left:100px;} */
+.box5{margin-inline-start: 100px;}
+
+/* 오 20 */
+.box5{margin-inline-end: 20px;}
+
+/* 위 100*/
+.box5{margin-block-start: 100px;}
+
+/* 아래 30 */
+.box5{margin-block-end: 30px;}

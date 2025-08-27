@@ -1,0 +1,22 @@
+/* 모든 요소의 바깥, 안쪽 여백을 0으로 시작 */
+*{margin: 0; padding: 0;}
+a{text-decoration: none;}
+
+/* 너비, 높이 테두리 안쪽여백 */
+/* 418, 390 #cbcccc 60,40 */
+.spon-list>div{width: 418px;
+height: 390px;
+border:1px solid #cbcccc;
+border-radius: 12px;
+padding: 60px 40px;
+box-sizing: border-box;}
+
+.spon-list>div .spon-subject{color: #333;
+font-size: 32px;
+margin: 40px, 0 20px ;}
+
+.spon-list>div .spon-detail{color: #555;
+font-size: 20px;}
+
+.spon-list>div .spon-more{margin-top: 15px;
+text-align: right;}

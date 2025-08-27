@@ -1,0 +1,6 @@
+/* letter-spacing 자간 */
+.spacing1{letter-spacing:3px;}
+/* +, - 로 조절, px,em 단위가능 소수점도 가능 */
+
+/* word-spacing 단어 사이의 간격 */
+.spacing2{word-spacing:20px;}

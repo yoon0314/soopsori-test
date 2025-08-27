@@ -1,0 +1,7 @@
+.wrap{background: skyblue;
+width: 800px;
+margin-bottom: 20px;}
+
+.wrap>div{border: 1px solid;
+background-color: pink;
+}

@@ -1,0 +1,23 @@
+*{margin: 0; padding: 0;}
+a{text-decoration: none;
+color: #111;}
+.sns-list>li{display: inline-block;}
+
+.sns-list>li>a{display: block;
+    width: 62px;
+height: 62px;
+border:1px solid #ccc;
+border-radius: 100%;}
+
+.sns-list>li>a::before{content:"";
+display: block;
+width: 26px;
+height: 20px;
+background-color: pink;
+background-image: url(../image/icon_sns.png);}
+
+.sns-list>li:first-child>a::before{background-position: -35px -7px;}
+
+.sns-list>li:nth-child(2)>a::before{background-position: -201px -7px;}
+
+.sns-list>li:nth-child(3)>a::before{background-position: -102px -9px;}

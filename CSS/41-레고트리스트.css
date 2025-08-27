@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+.inner {
+    margin: 0 auto;
+    width: 1680px;
+    background: pink;
+}
+
+.title {
+    text-align: center;
+    padding: 160px 0 80px;
+}
+
+.best-list>div {
+    width: 328px;
+    background-color: skyblue;
+}
+
+.best-list>div>.best-img {
+    background: #fff;
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+
+.best-list>div>.best-img>img {
+    width: 100%
+}
+
+.best-list>div>.best-text .best-price {
+    margin: 8px 0 16px;
+}
+
+.best-list>div>.best-text .best-price del{font-size: 14px;
+color: #888}

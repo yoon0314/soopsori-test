@@ -1,0 +1,17 @@
+*{margin: 0; padding: 0;}
+
+/* border>span 구분선 오른쪽 */
+.border>span{display: inline-block;
+    border-right:1px solid red;
+    background: skyblue;
+    line-height: 10px;
+    padding-right: 10px;
+    margin-right: 20px;
+}
+
+.border2>span::after{display: inline-block;
+    content:"";
+width: 1px;
+height: 5px;
+background: red;}
+/* 가상요소 선택자는 content:"" 가 반드시 있어야한다 */

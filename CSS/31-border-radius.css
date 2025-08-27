@@ -1,0 +1,35 @@
+div{width: 300px;
+height: 150px;
+background:pink;
+margin: 10px;}
+
+/* 사방의 모서리 둥글기 20px */
+.box1{border-radius: 20px;}
+
+/* 왼위, 오른아래 10px, 오른위, 왼아래 50px */
+/* 값1 왼위, 오른아래/값2 오른위, 왼아래 */
+.box2{border-radius: 10px 50px;}
+
+/* 왼위 0, 오른위 왼아래 20, 오른아래 50 */
+/* 값1 왼위, 값2 오른위, 왼아래, 값3 오른아래 */
+/* .box{border-end-end-radius: 이런식으로 헷갈리면 이름을 찾아서 줘도 된다;} */
+/* end - 오른쪽, 아래 start - 왼쪽, 위쪽 */
+.box3{border-radius:0 20px 50px;}
+
+/* 왼위20, 오위50, 오아래0, 왼아래70 */
+/* 값1 왼위, 값2 오위, 값3 오아래 값4 왼아래(왼위 기준 시계방향) */
+/* .box4{border-radius: 20px 50px 0 70px; */
+.box4{border-start-start-radius: 20px;
+border-top-right-radius: 50px;
+border-bottom-right-radius: 0;
+border-bottom-left-radius: 70;}
+
+/* 오아래 50px */
+.box5{border-end-end-radius: 50px;}
+
+/* 왼아래 30px */
+.box6{border-bottom-left-radius: 30px;}
+
+/* 모서리 둥글기의 가로세로 비율 다르게 줄때 */
+/* 가로/세로 */
+.box7{border-radius: 10px/70px;}

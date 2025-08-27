@@ -1,0 +1,193 @@
+/* 공통사항 */
+/* 모든여백제거, li장식 제거, a 밑줄제거, 글자색변경 */
+/* 테두리와 여백이 width, height안에 포함되도록 */
+/* img, video 는 위아래 정렬 */
+/* em,i,address는 글씨 똑바로*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img,
+video {
+    vertical-align: middle;
+}
+
+em,
+i,
+address {
+    font-style: normal;
+}
+
+:root {
+    --font-color-base: #1a1a1a;
+    --color-primary: #ef4da2;
+    --color-secondary: #e1cb20;
+}
+
+/* blind */
+.blind {
+    position: absolute;
+    top: -999999px;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    color: var(--font-color-base);
+    background-color: #f5f5f5;
+}
+
+.inner {
+    max-width: 1600px;
+    /* background-color: rgba(0, 255, 0, 0.3); */
+    margin: 0 auto;
+    padding: 0 2.5%;
+}
+
+.wide-inner {
+    width: 100%;
+    /* background: rgba(255, 0, 0, 0.1); */
+    padding: 0 2.5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+header {
+    height: 70px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+
+    /* >.wide-inner {
+        >div {
+            position: absolute;
+            top: 50%;
+            display: flex;
+
+            &.header-right{right: 2.5%;}
+            &.header-left{left: 2.5%;}
+
+            ul {
+                display: flex;
+            }
+        }
+    } */
+}
+
+.logo {
+    text-align: center;
+    line-height: 70px;
+}
+
+.logo img{vertical-align: baseline;}
+
+header>.wide-inner>div{position: absolute;
+top: 50%;
+display: flex;
+gap: 40px;
+transform: translateY(-50%);
+align-items: center;}
+
+.header-left{left: 2.5%;}
+
+.header-right{right: 2.5%;}
+
+header>.wide-inner>div>ul{display: flex;
+gap: 24px;}
+
+header>.wide-inner>div>ul>li{position: relative;}
+
+header>.wide-inner>div>ul>li:hover .brand-sub{display: block;}
+
+header>.wide-inner>div>ul>li:hover .man-sub{display: block;}
+
+header>.wide-inner>div>ul>li>a{font-size: 1.25rem;
+font-weight: 600;}
+
+.gnb-icon>li>a>span{background-color: var(--color-primary);
+position: absolute;
+top: -11px;
+right: -11px;
+width: 22px; height: 22px;
+border-radius: 100%;
+color: white;
+font-size: 10px;
+/* text-align: center;
+line-height: 22px;(한줄일때 가능/밑에 방법은 언제나 가능)   jusi어쩌구는 좌우, align어쩌구는 위아래*/
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.brand-sub {
+    display: none;
+position: absolute;
+left: 50%;
+/* border: 1px solid #ededed; */
+border: 1px solid #b59274;
+padding: 16px 16px;
+background-color: white;
+border-radius: 8px;
+line-height: 1.8;
+font-size: 0.85rem;
+transform: translateX(-50%);}
+
+.man-sub {
+    display: none;
+    position: absolute;
+    left: 50%;
+    /* border: 1px solid #ededed; */
+border: 1px solid  #b59274;
+padding: 16px 16px;
+background-color: white;
+border-radius: 8px;
+line-height: 1.8;
+font-size: 0.85rem;
+transform: translateX(-50%);
+}
+
+
+
+main {height: 600px;}
+
+footer {background-color: #b59274;
+padding: 50px 0;
+color: white;}
+.footer-top, .footer-bottom{display: flex;
+justify-content: space-between;
+gap: 200px;}
+
+.footer-top .company-info h2{font-size: 1rem;}
+
+.footer-top .company-info address{font-size: 12px;
+margin: 20px 0 0;
+line-height: 1.8;}
+
+.company-info address span{margin-right: 20px;}
+
+.footer-menu{display: flex;
+    justify-content: flex-end;
+flex-wrap: wrap;
+column-gap: 100px;}
+
+
+.footer-menu>li{width: 30%;}
+
+.footer-bottom{margin-top: 100px;}
+
+.sns-list{display: flex;
+align-items: center;}
+
+.sns-list>li{}
+.sns-list>.es-mark img{height: 32px;}

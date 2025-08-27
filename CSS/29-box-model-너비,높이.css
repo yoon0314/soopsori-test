@@ -1,0 +1,14 @@
+.box1{background:pink;
+width: 600px;
+height: 150px;}
+
+.box2{background: skyblue;
+/* % 는 부모가 기준 */
+    width: 50%;
+height: 20px;}
+
+span{background:green;
+width: 600px;
+height: 150px;
+/* ------>너비 높이 적용 안되는 걸 볼수 있다 */
+}

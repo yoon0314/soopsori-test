@@ -1,0 +1,11 @@
+/* list>li를 선택하여 기본이 검정 동그라미 -> 사각형 */
+.list>li{list-style-type: square;}
+/* list>li를 선택하여 기본이 검정 동그라미 -> 빈동그라미 */
+.list>li{list-style-type: circle;}
+/* ol>li를 선택하여 기본 숫자 -> 로마, 알파벳... */
+.ol>li{list-style-type:upper-roman;}
+/* gnb>li */
+.gnb>li{list-style-type: square;
+list-style-position: inside;}
+/* 동그라미 없애기 */
+.gnb>li{list-style: none;}

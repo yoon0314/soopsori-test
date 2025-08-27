@@ -1,0 +1,13 @@
+.sns-list>li>a {
+    display:block;
+    background-color: pink;
+width: 50px;
+height: 50px;
+text-indent: -9999px;}
+/* 들여쓰기/내어쓰기/너비/높이 블럭이기 때문에 된다 */
+/* 인라인에 주기 위해서는 display:block(인라인요소인데 블럭요소로 잠깐 속이는거)써야 한다 */
+
+.sns-list>.sns1>a{background-image: url(../image/icon_sns_facebook.png);}
+.sns-list>.sns2>a{background-image: url(../image/icon_sns_instar.png);}
+
+.sns-list>li>a:hover{background-position: -50px 0;}

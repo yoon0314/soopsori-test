@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 기본적으로 블럭요소는 너비,높이를 가질 수 있고 인라인요소는 너비, 높이를 가질수 없다 -->
+    <style>
+        .btn-green>a {
+            border: 2px solid green;
+            width: 160px;
+            height: 40px;
+            line-height: 40px;
+            display: block;
+            text-align: center;
+            color: green;
+            text-decoration: none;
+        }
+
+        .btn-green>a:hover {
+            background-color: green;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>스타벅스 버튼</h1>
+    <p class="btn-green"><a href="#">자세히 보기</a></p>
+</body>
+
+</html>

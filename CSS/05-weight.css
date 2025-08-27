@@ -1,0 +1,12 @@
+/* 글자 두께는 100~900 기본이 400 */
+p{font-size:40px;
+/* font-family:"궁서";} */}
+.weight1{font-weight:100;}
+.weight2{font-weight:200;}
+.weight3{font-weight:300;}
+.weight4{font-weight:400;}
+.weight5{font-weight:500;}
+.weight6{font-weight:600;}
+.weight7{font-weight:700;}
+.weight8{font-weight:800;}
+.weight9{font-weight:900;}

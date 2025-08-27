@@ -1,0 +1,8 @@
+/* 전체선택자사용 모든글자의 크기를 20px로 변경(기본 16px) */
+*{font-size:20px;}
+/* .unit-em을 선택(em은 부모가 기준)하여 크기를 기본의 2배로 만들기 */
+/* .unit-em{font-size:2em;} */
+.unit-em{font-size:2em;}
+
+/* unit-rem을 선택하여(rem은 맨상단이 기준 기본크기의 2배로 만들기 */
+.unit-rem{font-size:2rem;}

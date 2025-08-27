@@ -1,0 +1,23 @@
+*{margin: 0; padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;
+color: #1c1c1c;}
+header{background: #eee;}
+
+.main-menu>li{display: inline-block;
+margin: 0 30px;}
+
+.main-menu>li>a{display: block;
+    font-size: 18px;
+font-weight: 600;
+padding: 30px 0;}
+
+/* 서브메뉴 숨기기 */
+.depth1{display: none;
+position: absolute;}
+
+/* 메인메뉴에 호버 되면 .depth1를 한꺼번에 보여주기 */
+/* .main-menu:hover .depth1{display: block;} */
+
+/* 메인메뉴에 호버되면 .depth1 하나씩 보여주기 */
+.main-menu>li:hover .depth1{display: block;}저 소나무 철갑을 두른 듯 바람저 소나무 철갑을 두른 듯 바람

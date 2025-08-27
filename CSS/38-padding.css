@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+div {
+    background: skyblue;
+    border: 2px solid black;
+}
+
+/* 안쪽여백 위 50 왼 10 오 100*/
+.box1 {
+    /* padding-top:50px; */
+    padding-block-start: 50px;
+    /* padding-left: 10px; */
+    padding-inline-end: 10px;
+    /* padding-right: 100px; */
+    padding-inline-start: 100px;
+}
+
+/* 안쪽 사방을 전부 50 */
+/* 값1 전체 */
+.box2 {
+    padding: 50px;
+}
+
+/* padding 위아래 20 오왼 100 */
+/* 값1 위아래 값2 오왼 */
+.box3 {
+    padding: 20px 100px;
+}
+
+/* padding 위 50 오왼 20 아래 100 */
+/* 값1 위 값2 오원 값3 아래 */
+.box4 {
+    padding: 50px 20px 100px;
+}
+
+/* pdding 위 10 오 30 아 50 왼 70 */
+/* 값1 위 값2 오 값3 아 값4 왼 */
+.box5 {
+    padding: 10px 30px 50px 70px;
+}
+
+/* 인라인요소는 padding, margin은 위아래 문제 발생 */
+/* 위아래 크기가 늘어 나지 않아서 다른요소와 겹친다*/
+span{background: green;
+padding: 50px 100px;}

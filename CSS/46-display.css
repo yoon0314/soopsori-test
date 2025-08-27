@@ -1,0 +1,26 @@
+*{margin: 0; padding: 0;}
+li{list-style: none;}
+.menu>li{display: inline;
+border:1px  solid pink;
+width: 100px;}
+/* --->inline 요소 바뀌어 width 가 적용안되는 모습을 볼수 있다 */
+
+.span-list>span{display: block;
+width: 200px;
+height: 50px;
+border:1px solid;}
+
+.in-block>li{display: inline-block;
+width: 100px;
+height: 50px;
+border: 1px solid;
+line-height: 50px;}
+
+.table>li{border: 1px solid skyblue;
+    width: 200px;
+    height: 150px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+/* vertical-align 은 테이블, 이미지 일때만 적용된다 */

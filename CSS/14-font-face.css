@@ -1,0 +1,14 @@
+/* 내가 가지고 있는 폰트를 등록하여 사용하는 방법 */
+@font-face{font-family: "subway font";
+font-weight: 800;
+src:url(../02-CSS/font/Subway-Footlong.woff)}
+
+@font-face{font-family: "subway font";
+font-weight: 400;
+src:url(../02-CSS/font/Subway-SixInch.woff)}
+
+
+.gFont{font-family: "Outfit";}
+
+.mFont{font-family:"subway font";
+font-weight:800;}

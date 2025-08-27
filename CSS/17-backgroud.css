@@ -1,0 +1,14 @@
+/* h1에 배경색 */
+h1{background-color: aqua;}
+/* 블럭은 배경을 주면 글씨 부분뿐만 아니라 전체 줄에 배경이 들어간다 */
+/* .img-box 배경그림 */
+.img-box{line-height: 400px;
+background-image:url(../image/summit_logo_v2.png);
+background-repeat: no-repeat;}
+/* no-repeat: 반복안한다 */
+
+/* 문서 전체에 배경그림 스크롤과 무관하게 화면 가운데에 있도록 */
+body{background-image: url(../image/NT7UR53D_2.jpg);
+background-repeat: no-repeat;
+background-position: center 300px;
+background-attachment: fixed;}

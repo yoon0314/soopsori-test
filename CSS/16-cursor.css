@@ -1,0 +1,17 @@
+p{font-size:30px;}
+.cursor1{cursor:all-scroll;}
+.cursor2{cursor:cell;}
+.cursor3{cursor:col-resize;}
+.cursor4{cursor:copy;}
+.cursor5{cursor:crosshair;}
+.cursor6{cursor:e-resize;}
+.cursor7{cursor:grab;}
+.cursor8{cursor:grabbing;}
+.cursor9{cursor:help;}
+.cursor10{cursor:move;}
+.cursor11{cursor:pointer;}
+/* pointer는 a처럼 손가락 모양이나옴 */
+.cursor12{cursor:progress;}
+.cursor13{cursor:wait;}
+.cursor14{cursor:zoom-in;}
+.cursor15{cursor:url(../image/m.cur),auto;}

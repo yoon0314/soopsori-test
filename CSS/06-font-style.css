@@ -1,0 +1,8 @@
+address{font-style:normal;}
+/* font-style:normal 는 기울어진 글자를 똑바로 하는거 */
+
+/* 자식선택자 */
+/* 부모선택자>자식선택자 */
+div>em{font-style:normal;}
+div>i{font-style:normal;}
+

@@ -1,0 +1,10 @@
+/* 공통사항 */
+/* 모든여백제거, li장식 제거, a 밑줄제거, 글자색변경 */
+/* img, video 는 위아래 정렬 */
+/* em,i,address는 글씨 똑바로*/
+
+*{margin: 0; padding: 0;}
+li{list-style: none;}
+a{text-decoration: none; color: #222;}
+img,video{vertical-align: middle;}
+em,i,address{font-style: normal;}

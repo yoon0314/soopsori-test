@@ -1,0 +1,14 @@
+p{background: pink;}
+/* 많이 사용한다 */
+p::before{content: "before";
+font-size: 40px;
+color: blue;}
+p::after{content:"end";
+font-size: 50px;}
+
+div{border: 1px solid black;}
+/* div 안에 첫번째글자를 선택해서 글자크기 변경 */
+div::first-letter{font-size: 50px;}
+
+/* 첫번째 줄을 선택해서 배경색 */
+div::first-line{background: skyblue;}

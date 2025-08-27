@@ -1,0 +1,16 @@
+/* 서브웨이 메인컬러 초록 #009223 서브컬러 #ffce32 제목글자 40px*/
+
+:root{
+    /* --변수명:값 */
+    /* 변수:한글, 영문자, 숫자, -, _, 대소문자 구분 */
+    --maincolor:#009223;
+    --subcolor:#ffce32;
+    --titlesie:40px;
+}
+
+header{border-top: 5px solid var(--maincolor);}
+
+.logo{color: var(--maincolor);}
+
+section>h2{background:var(--subcolor);
+font-size: 40px;}

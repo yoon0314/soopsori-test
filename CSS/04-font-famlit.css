@@ -1,0 +1,11 @@
+/* h1을 선택해서 궁서체로 바꾼다 */
+h1{font-family:"궁서",serif;}
+
+/* .text1을 선택해서 굴림체 */
+.text1{font-family:"굴림",serif;}
+
+/* .text2는 서브웨이체 */
+.text2{font-family:Subway;}
+
+/* text3은 구글폰트는 get embed code에서 html 복붙하고 font-family도 복붙*/
+.text3{font-family: "Playwrite HU", cursive;}

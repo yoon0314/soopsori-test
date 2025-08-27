@@ -1,0 +1,6 @@
+/* 모든 div는 높이가 500px */
+div{height: 500px;
+background-color: bisque;}
+.title{font-size: 60px;}
+.section2{background-image: url(../image/shop1_25_top_405241.jpg);
+background-attachment: fixed;}

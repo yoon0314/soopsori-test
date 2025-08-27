@@ -1,0 +1,15 @@
+.wrap{width: 800px;
+background: pink;
+display: flex;
+justify-content: space-between;}
+
+.wrap>div{height: 100px;
+border: 2px solid black;}
+
+.wrap>.box1{width: 24%;}
+
+.wrap>.box2{width: 48%;
+order:2;}
+
+.wrap>.box3{width: 24%;
+order:1;}

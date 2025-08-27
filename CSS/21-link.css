@@ -1,0 +1,8 @@
+/* a 기본을 a선택자
+마우스가 올라갔을때 a:hover */
+/* 기본글자를 #222, 밑줄제거/ 마우스를 올리면 초록, 밑줄보리기*/
+
+.list>li>a{color:#222;
+text-decoration: none;}
+.list>li>a:hover{color:green;
+text-decoration: underline;}
