@@ -1,0 +1,108 @@
+/* 메인색상, 글자색상 */
+a{text-decoration: none;
+color:inherit}
+/* inherit:부모가 가지고 있는 색상을 상속받아서 사용한다 */
+
+:root{--maincolor:#fdd000;
+--maintextcolor:#1c1c1b;}
+
+.inner{max-width: 1280px;
+margin: 0 auto;
+align-items: center;
+}
+
+header{background: white;
+box-shadow: 0 0px 5px rgba(0,0,0,0.1);}
+
+header .inner{display: flex;
+justify-content: space-between;}
+
+.logo{width: 200px;}
+/* padding: 25px 0 30px;} */
+
+.logo img{width: 100%;}
+
+.main-menu{display: flex;}
+
+.main-menu>li{text-align: center;
+position: relative;}
+
+.main-menu>li:hover{background: var(--maincolor);}
+
+.main-menu>li>a{display: block;
+width: 115px; font-size: 18px;
+font-weight: 500;
+line-height: 100px;}
+
+/* 서브메뉴 숨기기 */
+.depth1{display: none;
+position: absolute;
+line-height: 2;
+padding:30px 0 0px;
+width: 100%;
+height: 200px;
+box-sizing: border-box;}
+
+.main-menu:hover .depth1{display: block;}
+
+.main-menu>li:hover .depth1{background: var(--maincolor);}
+
+.sns-list{display: flex;
+gap: 10px;}
+
+.sns-list>li{}
+
+/* 이미지를 위아래, 좌우 가운데 보내기 */
+/* flex 좌우 justify 위아래 */
+.sns-list>li>a{display: flex;
+width: 39px; height: 39px;
+border: 2px solid var(--maintextcolor);
+border-radius: 50%;
+justify-content: center;
+align-items: center;
+background: white;}
+
+.sns-list>li>a:hover{background: var(--maincolor);
+border-color: transparent;}
+
+main{height: 500px;}
+
+footer{}
+
+.footer-top{background: var(--maincolor);
+padding: 20px 0;}
+
+.util-menu{display: flex;
+gap: 20px;}
+
+.util-menu>li>a{font-weight: 600;}
+
+.util-menu>li>a:hover{text-decoration: underline;}
+
+.footer-bottom{background: var(--maintextcolor);
+padding: 60px 0;
+color: #aaa;}
+
+.footer-bottom>.inner{display: flex;
+justify-content: space-between;}
+
+.footer-bottom>.inner>.footer-bottom-left>div{display: flex;
+gap: 20px;
+align-items: center;}
+
+.footer-bottom-left>div>img{width: 200px;}
+
+.footer-bottom-left>address{margin-top: 20px;
+line-height: 2;
+font-size: 14px;}
+
+.footer-bottom-left>address strong{color: white;}
+
+.footer-bottom-right>.site_map{display: flex; gap: 30px;}
+
+.site_map .depth1{display: block;
+position: static;}
+
+.site_map>li>a{font-size: 20px;
+font-weight: 300;
+color: white;}
